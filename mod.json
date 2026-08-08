@@ -1,0 +1,43 @@
+{
+    "geode": "5.8.0",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "cheeseworks.kirknotifications",
+    "name": "charlie kirk notifications",
+    "version": "v1.0.0",
+    "developers": [
+        "Cheeseworks"
+    ],
+    "description": "we are charlie kirk",
+    "links": {
+        "source": "https://github.com/BlueWitherer/super-secret-notification",
+        "homepage": "https://www.cheeseworks.gay/",
+        "community": "https://www.dsc.gg/cheeseworks"
+    },
+    "tags": [
+        "joke"
+    ],
+    "dependencies": {
+        "cheeseworks.notifs": ">=1.0.0"
+    },
+    "resources": {
+        "spritesheets": {
+            "kirk": [
+                "resources/*.png"
+            ]
+        }
+    },
+    "settings": {
+        "gay": {
+            "type": "bool",
+            "name": "gay",
+            "description": "are you gay",
+            "default": true
+        }
+    },
+    "early-load": false
+}
